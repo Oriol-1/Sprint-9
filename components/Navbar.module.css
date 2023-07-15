@@ -1,0 +1,40 @@
+/* ./Navbar.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.naveHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.naveHeader ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.naveHeader ul li {
+  margin: 0 10px;
+}
+
+.naveHeader ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+}
+
+.navbarContainer {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: #000;
+}
